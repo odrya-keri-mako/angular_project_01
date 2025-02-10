@@ -14,4 +14,8 @@ import { FooterComponent } from './components/footer/footer.component';
     FooterComponent
   ]
 })
-export class AppComponent { }
+export class AppComponent { 
+  constructor() {
+    console.log('Application running...');
+  }
+}
