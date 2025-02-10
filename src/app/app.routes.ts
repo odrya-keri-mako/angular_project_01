@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
-import { Page1Component } from './pages/page1/page1.component';
-import { Page2Component } from './pages/page2/page2.component';
+import { HomeComponent } from './views/home/home.component';
+import { Page1Component } from './views/page1/page1.component';
+import { Page2Component } from './views/page2/page2.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },

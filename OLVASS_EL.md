@@ -1,8 +1,7 @@
 # Terminálban futtasd az alábbi parancsot:
 ```
-ng new project_01 --routing
-cd project_01
-ng add @angular/material
+ng new project_name --routing
+cd project_name
 ```
 
 # Komponensek létrehozása:
@@ -10,18 +9,18 @@ ng add @angular/material
 ```
 ng generate component components/header
 ng generate component components/footer
-ng generate component pages/home
-ng generate component pages/page1
-ng generate component pages/page2
+ng generate component views/home
+ng generate component views/page1
+ng generate component views/page2
 
 ```
 
 # Útvonalak beállítása (src/app/app.routes.ts):
 ```
 import { Route } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
-import { Page1Component } from './pages/page1/page1.component';
-import { Page2Component } from './pages/page2/page2.component';
+import { HomeComponent } from './views/home/home.component';
+import { Page1Component } from './views/page1/page1.component';
+import { Page2Component } from './views/page2/page2.component';
 
 export const routes: Route[] = [
   { path: '', component: HomeComponent },
