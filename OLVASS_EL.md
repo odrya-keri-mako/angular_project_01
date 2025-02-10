@@ -119,3 +119,10 @@ ng generate component page1 --skip-tests
 
 ng test
 ```
+
+# Github clone
+### Telepítsd a szükséges csomagokat:
+```
+npm install
+ng serve
+```
