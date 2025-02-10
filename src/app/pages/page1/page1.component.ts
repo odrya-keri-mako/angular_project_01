@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './page1.component.css'
 })
 export class Page1Component { 
-  currentPage = 'page1';
+  currentPage: string = 'page1';
   constructor() {
     console.log('Page1 controller...');
   }
