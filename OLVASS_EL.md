@@ -111,6 +111,7 @@ ng add @ng-bootstrap/ng-bootstrap
 }
 ```
 
+### Opcionális
 ### Teszt fájlok generálása (name.component.spec.ts):
 ```
 ng generate component home --skip-tests
